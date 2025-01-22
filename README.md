@@ -1,16 +1,25 @@
-# counter_app
+# Counter App with Flutter BLoC
 
-A new Flutter project.
+This is a simple counter app built using the `flutter_bloc` package. It demonstrates the use of `Cubit`, `BlocBuilder`, `BlocListener`, and `BlocConsumer`.
 
-## Getting Started
+## Features
+- Increment and decrement counter.
+- Show a dialog when the counter is negative.
+- Show a snackbar when the counter reaches 10 or -10.
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+### Counter
+![Screenshot](Screenshot_1.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Counter reach 10
+![Screenshot](Screenshot_2.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Counter reach negative count
+![Screenshot](Screenshot_3.png)
+
+
+## How to Run
+1. Clone the repository.
+2. Run `flutter pub get`.
+3. Run `flutter run`.
